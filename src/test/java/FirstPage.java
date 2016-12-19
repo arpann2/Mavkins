@@ -8,14 +8,16 @@ import org.testng.annotations.Test;
  */
 public class FirstPage {
 
-    /*
+
     private  String firefox_driver_path = "E:\\JARs\\Selenium-3.0.1\\geckodriver-v0.11.1-win64\\geckodriver.exe";
     WebDriver driver;
 
+    @Test
     public void setUp () {
         System.setProperty("webdriver.gecko.driver",firefox_driver_path);
         driver = new FirefoxDriver();
-        driver.get("https://bb.co.uk");
+        driver.get("https://bbc.co.uk");
+        driver.manage().window().maximize();
     }
 
 
@@ -27,7 +29,7 @@ public class FirstPage {
         driver.quit();
     }
 
-    */
+
 
     @Test
     public void verifyMethod() {
